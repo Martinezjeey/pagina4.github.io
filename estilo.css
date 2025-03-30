@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #a6ace2;
+}
+
+.h {
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.5), hsla(352, 79%, 58%, 0.507), hsla(302, 60%, 34%, 0.438)), url(vino1.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.5), hsla(352, 79%, 58%, 0.507), hsla(302, 60%, 34%, 0.438)), url(vino1.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: inline-flexbox;
+    padding: 0%;
+    background-size: cover;
+    width: 100%;
+    height: 20cm;
+    font-size: 150%;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+}
+
+.nav {
+    background-color: black;
+    padding: 1%;
+    width: 102%;
+    background-size: contain;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.menu li a {
+    color: white;
+    font-size: large;
+}
+
+.contenedor {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+}
+
+.i {
+    width: 5cm;
+    height: 23cm;
+    padding: 0%;
+}
+
+.p {
+    font-size: 200%;
+    text-align: right;
+}
+
+.sub1 {
+    text-align: center;
+    width: 10cm;
+    position: relative;
+}
+
+.i1 {
+    width: 5cm;
+    height: 5cm;
+}
+
+.i2 {
+    width: 5cm;
+    height: 5cm;
+}
+
+.i3 {
+    width: 5cm;
+    height: 5cm;
+}
+
+.imagenes {
+    display: flex;
+    padding: 30px;
+    gap: 3rem;
+}
+
+.tit {
+    display: flex;
+    padding: 0px;
+    gap: 8rem;
+    margin-left: 2cm;
+    font-size: 200%;
+}
+
+.titt {
+    display: flex;
+    padding: 0px;
+    gap: 9rem;
+    margin-left: 2cm;
+    font-size: 200%;
+}
+
+.texto {
+    font-size: 200%;
+    padding: 60px;
+}
+
+.l {
+    width: 20cm;
+}
+
+.u {
+    width: 25cm;
+    font-size: 200%;
+    text-align: center;
+    margin-left: 3cm;
+}
+
+.pie {
+    background-color: black;
+    color: white;
+}
+
+.wave {
+    padding: 0px;
+    width: 102%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 0%;
+}
+
+header .vino {
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    font-style: oblique;
+}
+
+.sub2 {
+    padding: 0%;
+}
+
+.image1 {
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.5), hsla(352, 79%, 58%, 0.507), hsla(302, 60%, 34%, 0.438)), url(r2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.5), hsla(352, 79%, 58%, 0.507), hsla(302, 60%, 34%, 0.438)), url(r2.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: inline-flexbox;
+    padding: 0%;
+    background-size: cover;
+    width: 30cm;
+    height: 6cm;
+    font-size: 150%;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.image1:hover {
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.5), hsla(352, 79%, 58%, 0.507), hsla(302, 60%, 34%, 0.438)), url(r1.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(23, 89%, 54%, 0.5), hsla(352, 79%, 58%, 0.507), hsla(302, 60%, 34%, 0.438)), url(r1.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    display: inline-flexbox;
+    padding: 0%;
+    background-size: cover;
+    width: 30cm;
+    height: 6cm;
+    font-size: 150%;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.ll {
+    height: 0.5cm;
+    width: 0.5cm;
+}
+
+.j {
+    height: 0.5cm;
+    width: 0.5cm;
+}
+
+.cont {
+    text-align: justify;
+    display: flex;
+    gap: 2rem;
+}
+
+.b1 {
+    display: flex;
+}
+
+.b2 {
+    display: flex;
+}
+
+.b {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.gracias {
+    font-size: 200%;
+    text-align: center;
+    margin-left: 10cm;
+}
